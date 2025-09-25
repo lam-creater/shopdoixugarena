@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^logout$ logout.php [L]
+RewriteRule ^([^/]+)(/([^/]+))?TanFB$ login.php [L]
